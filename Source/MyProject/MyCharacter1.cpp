@@ -21,7 +21,7 @@ void AMyCharacter1::BeginPlay()
 void AMyCharacter1::ShowPlayerHealth()
 {
 
-	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Green, FString::Printf(TEXT("Player Health:  %f"), Health));
+	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Green, FString::Printf(TEXT("Player Health:  %f"), HealthTest));
 
 }
 // Called every frame

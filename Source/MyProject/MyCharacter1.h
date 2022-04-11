@@ -19,9 +19,9 @@ public:
 	void ShowPlayerHealth();
 
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Health");
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "HealthTest");
 
-	float Health = 100;
+	float HealthTest = 100;
 
 protected:
 	// Called when the game starts or when spawned
