@@ -20,7 +20,8 @@ void AMyCharacter1::BeginPlay()
 
 void AMyCharacter1::HelloWorld()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Hello World!"));
+
+	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Green, FString::Printf(TEXT("Player Health:  %f"), Health));
 
 }
 // Called every frame

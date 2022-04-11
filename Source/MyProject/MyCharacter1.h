@@ -21,7 +21,7 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Health");
 
-	int Health = 0;
+	float Health = 100;
 
 protected:
 	// Called when the game starts or when spawned
