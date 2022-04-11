@@ -15,8 +15,8 @@ public:
 	// Sets default values for this character's properties
 	AMyCharacter1();
 
-	UFUNCTION(BluePrintCallable, Category = "HelloWorld")
-	void HelloWorld();
+	UFUNCTION(BluePrintCallable, Category = "ShowPlayerHealth")
+	void ShowPlayerHealth();
 
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Health");
